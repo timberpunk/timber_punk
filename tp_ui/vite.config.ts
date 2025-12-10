@@ -13,5 +13,15 @@ export default defineConfig({
         rewrite: (path) => path.replace(/^\/api/, '')
       }
     }
+  },
+  preview: {
+    port: 4173,
+    host: true,
+    allowedHosts: [
+      'localhost',
+      '.amazonaws.com',
+      '.compute.amazonaws.com',
+      'ec2-52-29-195-201.eu-central-1.compute.amazonaws.com'
+    ]
   }
 })
