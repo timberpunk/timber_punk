@@ -1,0 +1,132 @@
+{
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "cart": "Cart",
+    "admin": "Admin",
+    "logout": "Logout"
+  },
+  "hero": {
+    "title": "Welcome to TimberPunk",
+    "subtitle": "Handcrafted Wooden Products",
+    "description": "Discover unique, handmade wooden creations. Each piece tells its own story.",
+    "cta": "Browse Products"
+  },
+  "about": {
+    "title": "About TimberPunk",
+    "description": "At TimberPunk, we believe in the beauty of natural wood combined with modern craftsmanship. Each piece is carefully handcrafted, featuring unique grain patterns and custom engravings that make your items truly one-of-a-kind. From wall art to personalized gifts, we bring your vision to life in wood."
+  },
+  "products": {
+    "title": "Our Products",
+    "featuredTitle": "Our Best Sellers",
+    "noProducts": "No products available.",
+    "addToCart": "Add to Cart",
+    "viewDetails": "View Details",
+    "backToProducts": "Back to Products",
+    "inStock": "In Stock",
+    "outOfStock": "Out of Stock",
+    "quantity": "Quantity",
+    "description": "Description",
+    "filterByCategory": "Filter by category:",
+    "allCategories": "All Categories",
+    "noProductsFound": "No products found.",
+    "productNotFound": "Product not found.",
+    "options": "Options (size, wood type, finish):",
+    "optionsPlaceholder": "e.g., Large, Oak, Natural finish",
+    "customEngraving": "Custom Engraving (optional):",
+    "customEngravingPlaceholder": "Enter your custom text here...",
+    "addedToCart": "Product added to cart!"
+  },
+  "cart": {
+    "title": "Your Cart",
+    "empty": "Your cart is empty",
+    "continueShopping": "Continue Shopping",
+    "remove": "Remove",
+    "subtotal": "Subtotal",
+    "tax": "VAT (20%)",
+    "total": "Total",
+    "checkout": "Proceed to Checkout"
+  },
+  "checkout": {
+    "title": "Checkout",
+    "customerInfo": "Customer Information",
+    "fullName": "Full Name",
+    "email": "Email",
+    "phone": "Phone",
+    "shippingAddress": "Shipping Address",
+    "address": "Address",
+    "city": "City",
+    "postalCode": "Postal Code",
+    "country": "Country",
+    "paymentMethod": "Payment Method",
+    "cashOnDelivery": "Cash on Delivery",
+    "bankTransfer": "Bank Transfer",
+    "orderSummary": "Order Summary",
+    "placeOrder": "Place Order",
+    "backToCart": "Back to Cart"
+  },
+  "confirmation": {
+    "title": "Thank You for Your Order!",
+    "orderNumber": "Order Number",
+    "emailSent": "Order confirmation email sent to",
+    "backToHome": "Back to Home"
+  },
+  "admin": {
+    "login": {
+      "title": "Admin Login",
+      "email": "Email",
+      "password": "Password",
+      "loginButton": "Login",
+      "error": "Invalid email or password"
+    },
+    "dashboard": {
+      "title": "Admin Dashboard",
+      "products": "Products",
+      "orders": "Orders",
+      "addProduct": "Add Product",
+      "edit": "Edit",
+      "delete": "Delete",
+      "name": "Name",
+      "price": "Price",
+      "stock": "Stock",
+      "actions": "Actions",
+      "customer": "Customer",
+      "total": "Total",
+      "status": "Status",
+      "date": "Date",
+      "pending": "Pending",
+      "processing": "Processing",
+      "shipped": "Shipped",
+      "delivered": "Delivered",
+      "cancelled": "Cancelled"
+    },
+    "productForm": {
+      "addTitle": "Add New Product",
+      "editTitle": "Edit Product",
+      "name": "Product Name",
+      "description": "Description",
+      "price": "Price (RSD)",
+      "stock": "Stock Quantity",
+      "imageUrl": "Image URL",
+      "category": "Category",
+      "save": "Save",
+      "cancel": "Cancel"
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 TimberPunk. All rights reserved.",
+    "contact": "Contact",
+    "followUs": "Follow Us"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "search": "Search"
+  }
+}

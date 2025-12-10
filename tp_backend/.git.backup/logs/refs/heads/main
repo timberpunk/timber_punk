@@ -1,0 +1,6 @@
+0000000000000000000000000000000000000000 e6514b208a333f9e489597226fc6092276e1827f bojan.mirosljevic <bojan.mirosljevic@metadata.io> 1765318545 +0100	commit (initial): Initial commit - TimberPunk e-commerce backend
+e6514b208a333f9e489597226fc6092276e1827f e6514b208a333f9e489597226fc6092276e1827f bojan.mirosljevic <bojan.mirosljevic@metadata.io> 1765318561 +0100	Branch: renamed refs/heads/main to refs/heads/main
+e6514b208a333f9e489597226fc6092276e1827f e3e768ad967e0171a83434a519b530636ad5a457 bojan.mirosljevic <bojan.mirosljevic@metadata.io> 1765319003 +0100	commit: adding prod requirements
+e3e768ad967e0171a83434a519b530636ad5a457 d64e0e07ddce46cfb23236987069af2ca1e6ca43 bojan.mirosljevic <bojan.mirosljevic@metadata.io> 1765319195 +0100	commit: adding prod requirementsD
+d64e0e07ddce46cfb23236987069af2ca1e6ca43 3d2de5766ee2bf57a028c90bb3e766225ee1590c bojan.mirosljevic <bojan.mirosljevic@metadata.io> 1765319618 +0100	commit: start prod
+3d2de5766ee2bf57a028c90bb3e766225ee1590c b4918bab8deb3847cc4076399c3309d2713546b8 bojan.mirosljevic <bojan.mirosljevic@metadata.io> 1765367333 +0100	commit: fix

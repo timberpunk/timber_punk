@@ -1,0 +1,132 @@
+{
+  "nav": {
+    "home": "Početna",
+    "products": "Proizvodi",
+    "cart": "Korpa",
+    "admin": "Admin",
+    "logout": "Odjavi se"
+  },
+  "hero": {
+    "title": "Dobrodošli u TimberPunk",
+    "subtitle": "Ručno rađeni drveni proizvodi",
+    "description": "Otkrijte jedinstvene, ručno izrađene drvene kreacije. Svaki komad priča svoju priču.",
+    "cta": "Pregledajte Proizvode"
+  },
+  "about": {
+    "title": "O TimberPunk-u",
+    "description": "TimberPunk je studio za modernu drvenu umetnost i personalizovane dekoracije. Naši proizvodi nastaju spajanjem vrhunskog laserskog sečenja, ručne izrade i pažljivo biranog drveta, stvarajući komade koji se ističu kvalitetom i originalnošću. Vaša ideja je naše majstorstvo u drvetu."
+  },
+  "products": {
+    "title": "Naši proizvodi",
+    "featuredTitle": "Naši najprodavaniji proizvodi",
+    "noProducts": "Nema dostupnih proizvoda.",
+    "addToCart": "Dodaj u korpu",
+    "viewDetails": "Vidi Detalje",
+    "backToProducts": "Nazad na Proizvode",
+    "inStock": "Na stanju",
+    "outOfStock": "Nema na stanju",
+    "quantity": "Količina",
+    "description": "Opis",
+    "filterByCategory": "Filtriraj po kategoriji:",
+    "allCategories": "Sve kategorije",
+    "noProductsFound": "Nije pronađen nijedan proizvod.",
+    "productNotFound": "Proizvod nije pronađen.",
+    "options": "Opcije (veličina, vrsta drveta, završna obrada):",
+    "optionsPlaceholder": "npr. Veliki, Hrast, Prirodna završnica",
+    "customEngraving": "Prilagođeno graviranje (opciono):",
+    "customEngravingPlaceholder": "Unesite vaš tekst ovde...",
+    "addedToCart": "Proizvod je dodat u korpu!"
+  },
+  "cart": {
+    "title": "Vaša Korpa",
+    "empty": "Vaša korpa je prazna",
+    "continueShopping": "Nastavi Kupovinu",
+    "remove": "Ukloni",
+    "subtotal": "Međuzbir",
+    "tax": "PDV (20%)",
+    "total": "Ukupno",
+    "checkout": "Nastavi ka Plaćanju"
+  },
+  "checkout": {
+    "title": "Plaćanje",
+    "customerInfo": "Podaci o Kupcu",
+    "fullName": "Puno Ime",
+    "email": "Email",
+    "phone": "Telefon",
+    "shippingAddress": "Adresa za Dostavu",
+    "address": "Adresa",
+    "city": "Grad",
+    "postalCode": "Poštanski Broj",
+    "country": "Država",
+    "paymentMethod": "Način Plaćanja",
+    "cashOnDelivery": "Plaćanje Pouzećem",
+    "bankTransfer": "Bankovna Transakcija",
+    "orderSummary": "Rezime Narudžbine",
+    "placeOrder": "Potvrdi Narudžbinu",
+    "backToCart": "Nazad na Korpu"
+  },
+  "confirmation": {
+    "title": "Hvala na Narudžbini!",
+    "orderNumber": "Broj Narudžbine",
+    "emailSent": "Email sa detaljima narudžbine je poslat na",
+    "backToHome": "Nazad na Početnu"
+  },
+  "admin": {
+    "login": {
+      "title": "Admin Prijava",
+      "email": "Email",
+      "password": "Lozinka",
+      "loginButton": "Prijavi se",
+      "error": "Pogrešan email ili lozinka"
+    },
+    "dashboard": {
+      "title": "Admin Panel",
+      "products": "Proizvodi",
+      "orders": "Narudžbine",
+      "addProduct": "Dodaj Proizvod",
+      "edit": "Izmeni",
+      "delete": "Obriši",
+      "name": "Naziv",
+      "price": "Cena",
+      "stock": "Stanje",
+      "actions": "Akcije",
+      "customer": "Kupac",
+      "total": "Ukupno",
+      "status": "Status",
+      "date": "Datum",
+      "pending": "Na čekanju",
+      "processing": "U obradi",
+      "shipped": "Poslato",
+      "delivered": "Dostavljeno",
+      "cancelled": "Otkazano"
+    },
+    "productForm": {
+      "addTitle": "Dodaj Novi Proizvod",
+      "editTitle": "Izmeni Proizvod",
+      "name": "Naziv Proizvoda",
+      "description": "Opis",
+      "price": "Cena (RSD)",
+      "stock": "Količina na Stanju",
+      "imageUrl": "URL Slike",
+      "category": "Kategorija",
+      "save": "Sačuvaj",
+      "cancel": "Otkaži"
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 TimberPunk. Sva prava zadržana.",
+    "contact": "Kontakt",
+    "followUs": "Pratite Nas"
+  },
+  "common": {
+    "loading": "Učitavanje...",
+    "error": "Došlo je do greške",
+    "confirm": "Potvrdi",
+    "cancel": "Otkaži",
+    "save": "Sačuvaj",
+    "delete": "Obriši",
+    "edit": "Izmeni",
+    "close": "Zatvori",
+    "search": "Pretraži"
+  }
+}

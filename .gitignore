@@ -1,0 +1,75 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.*.local
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+/tmp/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Frontend (tp_ui)
+tp_ui/node_modules/
+tp_ui/dist/
+tp_ui/build/
+tp_ui/.env
+tp_ui/.env.production
+tp_ui/.env.*.local
+
+# Backend (tp_backend)
+tp_backend/venv/
+tp_backend/*.db
+tp_backend/.env
+tp_backend/.env.production
+tp_backend/__pycache__/
+
+# Logs
+/tmp/timberpunk_*.log
