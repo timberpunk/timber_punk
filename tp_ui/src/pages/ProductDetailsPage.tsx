@@ -58,16 +58,49 @@ const ProductDetailsPage: React.FC = () => {
 
   return (
     <div className="container" style={{ marginTop: '2rem' }}>
-      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '3rem', alignItems: 'start' }}>
-        {/* Left Column: Image and Form */}
+      <div style={{ 
+        display: 'grid', 
+        gridTemplateColumns: '1fr', 
+        gap: '2rem',
+      }}>
+        
+        {/* Product Image */}
         <div>
-          {/* Product Image */}
           <img
             src={product.image_url || 'https://via.placeholder.com/600x600?text=Wood+Product'}
             alt={product.name}
-            style={{ width: '100%', borderRadius: '8px', border: '1px solid var(--border)', marginBottom: '2rem' }}
+            style={{ 
+              width: '100%', 
+              maxWidth: '600px',
+              margin: '0 auto',
+              display: 'block',
+              borderRadius: '8px', 
+              border: '1px solid var(--border)' 
+            }}
           />
+        </div>
 
+        {/* Product Details */}
+        <div>
+          <p style={{ color: 'var(--text-secondary)', textTransform: 'uppercase', fontSize: '0.875rem' }}>
+            {product.category}
+          </p>
+          <h1 style={{ marginTop: '0.5rem', marginBottom: '1rem' }}>{product.name}</h1>
+          <p className="price" style={{ fontSize: '2rem', marginBottom: '1.5rem' }}>
+            {formatPrice(product.price)}
+          </p>
+          <p style={{ lineHeight: '1.8', marginBottom: '2rem', whiteSpace: 'pre-line' }}>
+            {product.description}
+          </p>
+        </div>
+
+        {/* Form Section */}
+        <div style={{
+          padding: '1.5rem',
+          backgroundColor: 'var(--card-bg)',
+          borderRadius: '8px',
+          border: '1px solid var(--border)'
+        }}>
           {/* Options (if available) */}
           {product.options && (
             <div className="form-group">
@@ -108,21 +141,32 @@ const ProductDetailsPage: React.FC = () => {
             {t('products.addToCart')}
           </button>
         </div>
-
-        {/* Right Column: Product Details */}
-        <div>
-          <p style={{ color: 'var(--text-secondary)', textTransform: 'uppercase', fontSize: '0.875rem' }}>
-            {product.category}
-          </p>
-          <h1 style={{ marginTop: '0.5rem', marginBottom: '1rem' }}>{product.name}</h1>
-          <p className="price" style={{ fontSize: '2rem', marginBottom: '1.5rem' }}>
-            {formatPrice(product.price)}
-          </p>
-          <p style={{ lineHeight: '1.8', marginBottom: '2rem', whiteSpace: 'pre-line' }}>
-            {product.description}
-          </p>
-        </div>
       </div>
+
+      {/* Desktop/Tablet layout styles */}
+      <style>{`
+        @media (min-width: 768px) {
+          .container > div {
+            grid-template-columns: 1fr 1fr !important;
+            gap: 3rem !important;
+          }
+          
+          .container > div > div:first-child {
+            grid-column: 1;
+            grid-row: 1 / 3;
+          }
+          
+          .container > div > div:nth-child(2) {
+            grid-column: 2;
+            grid-row: 1;
+          }
+          
+          .container > div > div:nth-child(3) {
+            grid-column: 2;
+            grid-row: 2;
+          }
+        }
+      `}</style>
     </div>
   );
 };
