@@ -20,9 +20,26 @@ app = FastAPI(
 )
 
 # CORS middleware
+# Allow multiple origins for development and production
+allowed_origins = [
+    "http://localhost:5173",
+    "http://localhost:3000",
+    "http://localhost:4173",
+]
+
+# Add frontend_url if set
+if settings.frontend_url:
+    allowed_origins.append(settings.frontend_url)
+
+# Add AWS EC2 DNS
+allowed_origins.extend([
+    "http://ec2-52-29-195-201.eu-central-1.compute.amazonaws.com",
+    "https://ec2-52-29-195-201.eu-central-1.compute.amazonaws.com",
+])
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[settings.frontend_url, "http://localhost:5173", "http://localhost:3000"],
+    allow_origins=allowed_origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
