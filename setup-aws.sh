@@ -138,16 +138,13 @@ echo -e "${BLUE}📦 Korak 3: Frontend Production Setup...${NC}"
 cd "$FRONTEND_DIR"
 
 # Frontend .env.production
-if [ ! -f ".env.production" ]; then
-    echo -e "${YELLOW}📝 Kreiram frontend .env.production...${NC}"
-    cat > .env.production << EOF
+echo -e "${YELLOW}📝 Kreiram frontend .env.production...${NC}"
+cat > .env.production << EOF
 # TimberPunk Frontend - AWS EC2 Production
-VITE_API_URL=http://${AWS_PUBLIC_DNS}:8000
+# Backend API URL (preko Nginx reverse proxy na portu 80)
+VITE_API_URL=http://${AWS_PUBLIC_DNS}/api
 EOF
-    echo -e "${GREEN}✓ .env.production kreiran${NC}"
-else
-    echo -e "${GREEN}✓ .env.production već postoji${NC}"
-fi
+echo -e "${GREEN}✓ .env.production kreiran${NC}"
 
 # npm paketi
 if [ ! -d "node_modules" ]; then
